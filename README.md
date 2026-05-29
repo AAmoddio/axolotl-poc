@@ -1,6 +1,6 @@
 # axolotyl-POC
 
-I fine tuned Qwen2.5-7B using QLoRA on facts about ResetData and FTaaS.
+I fine-tuned Qwen2.5-7B Instruct with QLoRA on 100 examples of facts about ResetData. The baseline tests showed the model didn’t know what ResetData or FTaaS meant. Post training it understood these terms and more.
 
 ## What this is
 
@@ -11,7 +11,6 @@ I fine tuned Qwen2.5-7B using QLoRA on facts about ResetData and FTaaS.
 - Exact dependency lock for the environment that produced the original successful run
 - Eval scripts that compare the **baseline** (untrained) model against the **fine-tuned** model on the same 10 questions
 
-The point isn't the model itself — it's that someone can clone this repo and reproduce the exact training run, then use that as the starting point for FTaaS platform work.
 
 ## Hardware
 
