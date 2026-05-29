@@ -1,0 +1,70 @@
+
+
+### Question 1
+What services does ResetData currently provide for AI workloads?
+
+### Fine-tuned Answer
+ResetData currently provides GPU infrastructure, GPU as a Service, LLM as a Service, model hosting, inference APIs, and managed GPU environments for AI workloads.
+
+
+### Question 2
+How could ResetData position a future FTaaS offering?
+
+### Fine-tuned Answer
+ResetData could position a future FTaaS offering as a model fine-tuning service that gives customers access to high-performance GPU infrastructure, supported environment setups, monitoring, evaluation tools, and deployment options while reducing the operational burden of building the underlying platform internally.
+
+
+### Question 3
+What is the difference between ResetData GPUaaS and LLMaaS?
+
+### Fine-tuned Answer
+ResetData GPUaaS gives customers access to GPU compute, while LLMaaS gives customers access to hosted large language models.
+
+
+### Question 4
+When should ResetData recommend RAG instead of fine-tuning to a customer?
+
+### Fine-tuned Answer
+ResetData should recommend RAG when the customer needs access to external knowledge, policies, procedures, or documentation that changes over time. RAG is better than fine-tuning when the goal is to provide up-to-date information rather than changing behaviour.
+
+
+### Question 5
+How could ResetData integrate fine-tuned models into its inference platform?
+
+### Fine-tuned Answer
+ResetData could integrate fine-tuned models by exposing them as hosted endpoints through API keys, allowing customers to send requests and receive model responses.
+
+
+### Question 6
+What would a customer need to provide before starting a fine-tuning job with ResetData?
+
+### Fine-tuned Answer
+A customer would typically need to provide a clean dataset, a base model, a training profile, evaluation instructions, and an output location.
+
+
+### Question 7
+Why might a customer choose ResetData instead of managing their own GPU infrastructure?
+
+### Fine-tuned Answer
+A customer might choose ResetData because it can reduce the operational burden of GPU infrastructure, provide access to GPU capacity more quickly, and help focus on AI workloads rather than the underlying compute platform.
+
+
+### Question 8
+How does sovereign AI relate to ResetData's platform strategy?
+
+### Fine-tuned Answer
+Sovereign AI relates to ResetData's platform strategy by focusing on giving customers more control over where AI workloads run, how data is handled, and how AI services are deployed.
+
+
+### Question 9
+What operational challenges would ResetData face when offering FTaaS?
+
+### Fine-tuned Answer
+ResetData would face operational challenges such as GPU scheduling, monitoring fine-tuning jobs, handling dataset storage, ensuring data privacy, managing model artifacts, and providing customer support for common deployment workflows.
+
+
+### Question 10
+What would an end-to-end ResetData fine-tuning workflow look like?
+
+### Fine-tuned Answer
+An end-to-end ResetData fine-tuning workflow would include dataset upload, validation, model selection, configuration, training, monitoring, checkpointing, evaluation, and artifact storage.

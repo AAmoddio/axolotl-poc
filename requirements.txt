@@ -1,0 +1,16 @@
+# axolotyl-POC dependencies
+#
+# Top-level pins for the ResetData FTaaS proof-of-concept harness.
+# For the exact transitive lock (every package, every version), see requirements-lock.txt.
+#
+# Hardware/runtime assumptions:
+#   - Python 3.11
+#   - CUDA 12.8 (the +cu128 torch wheel below requires it)
+#   - NVIDIA GPU with bf16 support (L40S, A100, H100, RTX 30/40-series)
+#
+# Last known-good environment: NVIDIA L40S, driver 580.65.06, 2026-05-29
+
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.7.0+cu128
+axolotl==0.16.1

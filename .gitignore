@@ -1,0 +1,41 @@
+# Training outputs — checkpoints, adapter weights, tokenizer copies.
+# These are GBs each; never commit them. Save what you need under runs/ as small text logs instead.
+outputs/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# HuggingFace cache — downloaded base models (~15GB for a 7B model).
+# Lives in ~/.cache/huggingface by default, but pin here in case it leaks into the repo.
+.cache/
+huggingface/
+
+# Weights & Biases run data — logs, metrics, run metadata.
+wandb/
+
+# Python venv (if someone creates one inside the project dir).
+.venv/
+venv/
+env/
+
+# Python bytecode.
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Editor / IDE.
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter notebook checkpoints (in case anyone adds notebooks later).
+.ipynb_checkpoints/
+
+# Local env file — never commit secrets (HF tokens, wandb API keys, etc).
+.env
+.env.local
