@@ -1,6 +1,6 @@
 # axolotyl-POC
 
-A reproducible Qwen2.5-7B QLoRA fine-tuning harness, built to validate the workflow for ResetData's planned Fine-Tuning as a Service (FTaaS) capability.
+I fine tuned Qwen2.5-7B using QLoRA on facts about ResetData and FTaaS.
 
 ## What this is
 
