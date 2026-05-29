@@ -1,4 +1,4 @@
-# axolotyl-POC
+# axolotl-POC
 
 I fine-tuned Qwen2.5-7B Instruct with QLoRA on 100 examples of facts about ResetData. The baseline tests showed the model didn’t know what ResetData or FTaaS meant. Post training it understood these terms and more.
 
